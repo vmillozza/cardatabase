@@ -2,17 +2,12 @@ package com.packt.cardatabase;
 
 //import java.util.Arrays;
 
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
-import org.springframework.beans.factory.annotation.Autowired;
+
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
-import com.packt.cardatabase.domain.Car;
-import com.packt.cardatabase.domain.CarRepository;
-import com.packt.cardatabase.domain.Owner;
-import com.packt.cardatabase.domain.OwnerRepository;
+
 
 @SpringBootApplication
 public class CardatabaseApplication implements CommandLineRunner {
@@ -22,7 +17,7 @@ public class CardatabaseApplication implements CommandLineRunner {
 
 	@Autowired
 	private OwnerRepository ownerepository;*/
-	private static final Logger logger = LoggerFactory.getLogger(CardatabaseApplication.class);
+	//private static final Logger logger = LoggerFactory.getLogger(CardatabaseApplication.class);
 
 	public static void main(String[] args) {
 		// LoggerFactory.getLogger(...): Questa è una chiamata a un metodo statico della
